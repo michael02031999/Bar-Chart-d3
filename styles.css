@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.xAxis {
+    font-size: 17.5px !important;
+}
+
+.yAxis{
+    font-size: 17.5px !important;
+}
+
+body {
+    text-align: center;
+    background: gray; 
+    z-index: -1;
+}
+
+#svgContainer {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    background: gray;
+}
+
+svg {
+    background: white;
+    padding: 50px;
+    width: 1600px;
+    text-align: center;
+    overflow: visible;
+}
+
+.yTitle {
+    font-size: 25px;
+}
+
+.bar:hover {
+    fill: white;
+}
+
+#tooltip2 {
+    z-index: 1000;
+}
+
+.tooltip {
+    fill: black !important;
+}
