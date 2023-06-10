@@ -152,7 +152,7 @@ function parseData (response) {
         const tooltip = d3.select("#tooltip2")
             .style('opacity', 1)
             .style("stroke", "red")
-            .attr('transform', `translate(${d.x-200}, 600)`)
+            .attr('transform', `translate(${d.x-150}, 600)`)
         
 
         if (split_up_dates[1] == '01') {
